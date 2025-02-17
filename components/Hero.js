@@ -11,7 +11,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-4xl md:text-5xl font-bold"
+          className="text-3xl md:text-5xl font-bold"
         >
           Hi! I am Christian, a <br /> Front-End Developer & UI/UX Designer
         </motion.h1>
@@ -20,16 +20,16 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.3 }}
-          className="text-xl mt-4"
+          className="text-lg md:text-xl mt-4"
         >
           Welcome to my portfolio
         </motion.p>
 
         {/* Resume Download Button */}
         <motion.a
-          href="/resume.pdf" // Ensure the resume file is inside /public
+          href="/resume.pdf"
           download="Christian_Resume.pdf"
-          className="mt-6 px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-black transition duration-300"
+          className="mt-6 px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-black transition duration-300 text-sm md:text-base"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.4, delay: 0.6 }}
