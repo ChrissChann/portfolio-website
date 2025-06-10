@@ -34,6 +34,12 @@ const certificates = [
     provider: "Philippine Society of Information Technology Educators - Davao Region",
     image: "/cert5.jpg",
   },
+  {
+    id: 6,
+    title: "JavaScript Tutorial: Learn JavaScript",
+    provider: "Learnoverse",
+    image: "/cert6.jpg",
+  },
   // Add more certificates
 ];
 
