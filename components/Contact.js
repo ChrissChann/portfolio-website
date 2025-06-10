@@ -49,10 +49,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Footer Bottom */}
-        <div className="mt-6 border-t border-gray-300 pt-4">
-          <p className="text-sm text-gray-500">&copy; 2025. All rights reserved.</p>
-        </div>
+        
       </div>
     </footer>
   );

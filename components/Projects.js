@@ -16,7 +16,7 @@ export default function Projects() {
     <section id="projects" className="relative py-20 text-white overflow-hidden bg-black">
       {/* Running Person Animation */}
       <div className="absolute bottom-10 w-32 h-32 animate-running bg-cover"
-        style={{ backgroundImage: "url('/running-person.gif')" }}
+       // style={{ backgroundImage: "url('/running-person.gif')" }}//
       ></div>
 
       <div className="container mx-auto max-w-6xl relative z-10 px-4">
