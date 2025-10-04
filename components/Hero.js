@@ -27,7 +27,7 @@ export default function Hero() {
 
         {/* Resume Download Button */}
         <motion.a
-          href="/resume.pdf"
+          href="/Christian Cuario - Resume.pdf"
           download="Christian_Resume.pdf"
           className="mt-6 px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-black transition duration-300 text-sm md:text-base"
           initial={{ opacity: 0, y: 20 }}
